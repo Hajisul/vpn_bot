@@ -1,0 +1,20 @@
+{
+  "name": "vpnstore-bot",
+  "version": "2.0.0",
+  "description": "Premium Persian VPN Store Telegram Bot",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "better-sqlite3": "^9.4.3",
+    "dotenv": "^16.4.5",
+    "qrcode": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
